@@ -1,0 +1,252 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100%;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+    background-repeat: round;
+    background-size: 100%;
+
+
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(145, 106, 48);
+}
+
+header {
+    padding: 20px 0;
+}
+
+div.contenido {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1200px;
+    margin: 20px auto;
+    padding-left: 30px;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.textlogo {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100px;
+    color: rgb(168, 168, 168);
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    margin-left: 550px;
+    font-size: 20px;
+}
+
+span {
+    color: darkcyan;
+}
+
+.iconfly {
+    margin-left: 550px;
+    font-size: 40px;
+    color: #50afc7;
+
+}
+
+/**navegacion**/
+.navegacion {
+    background-color: rgb(88, 117, 179);
+
+
+}
+.navbar-brand {
+    color: black;
+}
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 6px;
+    height: 80px;
+}
+
+
+
+nav ul {
+    width: max-content;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    width: 150px;
+}
+
+nav ul li a:hover {
+    background-color: darkcyan;
+}
+
+/**segundo nivel**/
+
+
+.dropdown-menu:hover {
+    background-color: #50afc7;
+}
+
+nav ul li:hover {
+    background-color: #a3deec;
+}
+
+/** Contenido principal**/
+main {
+    margin-top: 120px;
+}
+.titulomain {
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    color: gold;
+}
+
+/** Entradas de post**/
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+article p {
+    color: black;
+    line-height: 2;
+    text-align: justify;
+    font-size: 17px;
+    width: 100%;
+}
+
+article img {
+    width: 300px;
+    margin-right: 30px;
+}
+
+.boton {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.oculto {
+    visibility: hidden; 
+}
+.mostrar {
+    visibility: visible;
+}
+
+
+/**sider**/
+.aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    padding: 10px;
+}
+
+aside ul li:hover {
+    background-color: #50afc7;
+    cursor: pointer;
+    width: 233px;
+}
+
+aside ul li a {
+    color: black;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+aside ul li:hover a {
+    color: #ffffff;
+}
+
+.img-sidebar {
+    width: 233px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/**Footer**/
+footer {
+    background-color: rgb(110, 103, 88);
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+footer h2 {
+    color: black;
+}
+
+.nosotros {
+    margin-left: 50px;
+}
+
+p.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(9, 5, 252);
+
+}
+
+.redes-sociales ul li {
+    font-size: 5px;
+    list-style: none;
+    display: inline-block;
+    font-size: 40px;
+    padding: 0 20px 0 20px;
+}
+
+.redes-sociales ul>li {
+    font-size: 30px;
+}
