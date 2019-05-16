@@ -16,7 +16,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100%;
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
     background-blend-mode: screen;
     background-repeat: round;
     background-size: 100%;
@@ -80,6 +80,7 @@ span {
 
 
 }
+
 .navbar-brand {
     color: black;
 }
@@ -90,8 +91,6 @@ nav {
     padding: 6px;
     height: 80px;
 }
-
-
 
 nav ul {
     width: max-content;
@@ -115,22 +114,27 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: darkcyan;
+    transition: 0.5s;
 }
 
 /**segundo nivel**/
 
 
-.dropdown-menu:hover {
-    background-color: #50afc7;
+.dropdown-item:hover {
+    background-color: #5ebfd4;
+    transition: 0.5s;
 }
 
-nav ul li:hover {
-    background-color: #a3deec;
-}
 
 /** Contenido principal**/
 main {
     margin-top: 120px;
+}
+@media (max-width:520px) {
+    .titulomain {
+        margin-top: 190px;
+    }
+
 }
 .titulomain {
     text-align: center;
@@ -144,6 +148,7 @@ main {
     display: flex;
     flex-direction: row;
     padding-bottom: 50px;
+    justify-content: space-between;
 }
 
 article p {
@@ -169,49 +174,93 @@ article img {
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .oculto {
-    visibility: hidden; 
+    visibility: hidden;
 }
+
 .mostrar {
     visibility: visible;
 }
 
-
-/**sider**/
-.aside {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/**paquetes**/
+.seccion-paquetes {
+    margin-top: 50px;
 }
-aside ul {
+.seccion-paquetes h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.lista-paquetes  h3 {
+    font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+.lista-paquetes {
+    margin: 20px;
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+.lista-paquetes:hover {
+    transform: scale(1.1);
+  box-shadow: 0px 0px 50px #666;
+  transition: all .3s ease;
+  border: 1px solid #fe4918;
+}
+.lista-paquetes li {
     list-style: none;
 }
-
-aside ul li {
+.lista-paquetes button {
+    margin-top: 30px;
+    margin-left: 55px;
     padding: 10px;
-}
-
-aside ul li:hover {
-    background-color: #50afc7;
-    cursor: pointer;
-    width: 233px;
-}
-
-aside ul li a {
     color: black;
-    padding: 10px 0;
+    background-color: #fe4918;
+}
+.tabla-precio {
+    border: 1px solid #e1e1e1;
+        background-color: #ffffff;
+        padding: 40px 0;
+        text-align: center;
+}
+div.tabla-precio:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px #666;
+    transition: all .3s ease;
+    border: 1px solid #fe4918;
+}
+.numero {
+    color: #fe4918;
     text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-aside ul li:hover a {
-    color: #ffffff;
-}
-
-.img-sidebar {
+.img-lista {
     width: 233px;
-    margin-top: 10px;
+    border-radius: 20px;
 }
-
+.tabla-paquetes ul li {
+    font-family: 'PT Sans' , sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: 868686;
+    line-height: 26px;
+    list-style: none;
+   
+}
+.tabla-paquetes ul li i {
+    color: green;
+    margin-right: 10px;
+}
 
 
 
@@ -248,5 +297,10 @@ p.copyright {
 }
 
 .redes-sociales ul>li {
-    font-size: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.iconredes {
+    padding-right: 10px;
 }

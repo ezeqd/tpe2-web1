@@ -28,8 +28,8 @@
     </header>
     <div class="navegacion">
 
-        <nav class="navbar navbar-expand-lg navbar-ligth">
-            <a class="navbar-brand">Blog de Viajes</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Blog de Viajes</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,15 +38,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Destino.html">Destino</a>
+                        <a class="nav-link" href="#">Destinos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Menu
+                            Mas
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Cruceros</a>
@@ -141,33 +141,67 @@
             </article>
     </div>
     </main>
-        <div class="container row">
-            <aside class="sidebar">
-                <h2>Otros viajes</h2>
-                <div class="col-6">
-                    <ul>
-                        <div class="col-12">
+    <section class="seccion-paquetes">
+        <h2>Paquetes</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
 
-                            <li>
-                                <a href="destino.html">Argentina, Cataratas</a>
-                            </li>
-                            <img src="img/cataratas.jpg" alt="img cataratas" class="img-sidebar">
-                            
-                        </div>
+                    <ul class="lista-paquetes">
+                        <h3>Paquete Cataratas</h3>
+                        <p class="numero">$2500</p>
                         <li>
-                            <a href="destino.html">Italia, Roma</a>
+                            <div class="tabla-paquetes">
+                                <ul>
+                                    <li><i class="fas fa-check"></i>traslado</li>
+                                    <li><i class="fas fa-check"></i>hospedaje</li>
+                                    <li><i class="fas fa-check"></i>guia turistica</li>
+                                </ul>
+                                <img class="img-lista" src="img/cataratas.jpg" alt="img cataratas">
+                            </div>
+                            <button href="#" class="button hollow">Comprar</button>
                         </li>
-                        <img src="img/roma.jpg" alt="img roma" class="img-sidebar">
-                        <li>
-                            <a href="destino.html">Alemania, Berlin </a>
-                        </li>
-                        <img src="img/berlin.jpg" alt="img Berlin" class="img-sidebar">
-    
                     </ul>
                 </div>
-            </aside>
+                <div class="col-md-4">
+
+                    <ul class="lista-paquetes">
+                        <h3>Paquete Madrid</h3>
+                        <p class="numero">$2500</p>
+                        <li>
+                            <div class="tabla-paquetes">
+                                <ul>
+                                    <li><i class="fas fa-check"></i>traslado</li>
+                                    <li><i class="fas fa-check"></i>hospedaje</li>
+                                    <li><i class="fas fa-check"></i>guia turistica</li>
+                                </ul>
+                                <img class="img-lista" src="img/madrid.jpg" alt="img madrid">
+                            </div>
+                            <button href="#" class="button hollow">Comprar</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="lista-paquetes">
+                        <h3>Paquete Paris</h3>
+                        <p class="numero">$2500</p>
+                        <li>
+                            <div class="tabla-paquetes">
+                                <ul>
+                                    <li><i class="fas fa-check"></i>traslado</li>
+                                    <li><i class="fas fa-check"></i>hospedaje</li>
+                                    <li><i class="fas fa-check"></i>guia turistica</li>
+                                </ul>
+                                <img class="img-lista" src="img/paris.jpg" alt="img paris">
+                            </div>
+                            <button href="#" class="button hollow">Comprar</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    
+    </section>
+
 
     <footer>
         <div class="contenedor-footer">
@@ -184,10 +218,10 @@
             <!--.contenedor-->
             <div class="redes-sociales">
                 <ul>
-                    <li><i class="fab fa-facebook"></i>Facebook</li>
-                    <li><i class="fab fa-twitter-square"></i>Twitter</li>
-                    <li><i class="fab fa-instagram"></i>Instagram</li>
-                    <li><i class="fab fa-whatsapp"></i>Whatsapp</li>
+                    <li><i class="fab fa-facebook iconredes"></i>Facebook</li>
+                    <li><i class="fab fa-twitter-square iconredes"></i>Twitter</li>
+                    <li><i class="fab fa-instagram  iconredes"></i>Instagram</li>
+                    <li><i class="fab fa-whatsapp iconredes"></i>Whatsapp</li>
                 </ul>
             </div>
         </div>
