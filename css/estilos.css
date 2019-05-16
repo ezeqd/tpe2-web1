@@ -144,12 +144,7 @@ main {
 }
 
 /** Entradas de post**/
-.contenedor {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 50px;
-    justify-content: space-between;
-}
+
 
 article p {
     color: black;
@@ -243,7 +238,7 @@ div.tabla-precio:hover {
     margin-bottom: 20px;
 }
 .img-lista {
-    width: 233px;
+    width: 50%;
     border-radius: 20px;
 }
 .tabla-paquetes ul li {
@@ -261,6 +256,10 @@ div.tabla-precio:hover {
     color: green;
     margin-right: 10px;
 }
+.button {
+    border: 1px salid black;
+    border-radius: 20px;
+}
 
 
 
@@ -268,17 +267,20 @@ div.tabla-precio:hover {
 
 /**Footer**/
 footer {
-    background-color: rgb(110, 103, 88);
+    background-color: #353535;;
     padding-top: 40px;
     margin-top: 50px;
 }
 
 footer h2 {
-    color: black;
+    color: #ffffff;
 }
 
 .nosotros {
     margin-left: 50px;
+}
+.nosotros p {
+    color: #ffffff;
 }
 
 p.copyright {
@@ -303,4 +305,53 @@ p.copyright {
 
 .iconredes {
     padding-right: 10px;
+}
+.fa-facebook {
+    background: #aaa;
+    border-radius: 10%;
+	padding: 1em;
+	color: White;
+	margin: 1em;
+	transition: all ease 0.5s;
+}
+.fa-facebook:hover {
+    background: #3b5998;
+}
+
+.fa-instagram {
+    background: #aaa;
+    border-radius: 10%;
+	padding: 1em;
+	color: White;
+	margin: 1em;
+	transition: all ease 0.5s;
+}
+.fa-instagram:hover {
+    background:  #F77737;
+}
+
+
+.fa-whatsapp {
+    background: #aaa;
+    border-radius: 10%;
+	padding: 1em;
+	color: White;
+	margin: 1em;
+	transition: all ease 0.5s;
+}
+.fa-whatsapp:hover {
+    background:  #25D366;
+}
+
+.fa-youtube {
+    background: #aaa;
+    border-radius: 10%;
+	padding: 1em;
+	color: White;
+	margin: 1em;
+	transition: all ease 0.5s;
+}
+.fa-youtube:hover {
+    background: #FD1D1D;
+    
 }
