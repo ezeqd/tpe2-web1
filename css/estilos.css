@@ -63,9 +63,7 @@ div.contenido {
     font-size: 20px;
 }
 
-span {
-    color: darkcyan;
-}
+
 
 .iconfly {
     margin-left: 550px;
@@ -130,12 +128,14 @@ nav ul li a:hover {
 main {
     margin-top: 120px;
 }
+
 @media (max-width:520px) {
     .titulomain {
         margin-top: 190px;
     }
 
 }
+
 .titulomain {
     text-align: center;
     margin-bottom: 70px;
@@ -171,29 +171,28 @@ article img {
 }
 
 .oculto {
-    visibility: hidden;
-}
-
-.mostrar {
-    visibility: visible;
+    display: none;
 }
 
 /**paquetes**/
 .seccion-paquetes {
     margin-top: 50px;
 }
+
 .seccion-paquetes h2 {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
-.lista-paquetes  h3 {
+
+.lista-paquetes h3 {
     font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  text-align: center;
-  
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+
 }
+
 .lista-paquetes {
     margin: 20px;
     border: 1px solid #e1e1e1;
@@ -201,15 +200,18 @@ article img {
     padding: 40px 0;
     text-align: center;
 }
+
 .lista-paquetes:hover {
     transform: scale(1.1);
-  box-shadow: 0px 0px 50px #666;
-  transition: all .3s ease;
-  border: 1px solid #fe4918;
+    box-shadow: 0px 0px 50px #666;
+    transition: all .3s ease;
+    border: 1px solid #fe4918;
 }
+
 .lista-paquetes li {
     list-style: none;
 }
+
 .lista-paquetes button {
     margin-top: 30px;
     margin-left: 55px;
@@ -217,18 +219,21 @@ article img {
     color: black;
     background-color: #fe4918;
 }
+
 .tabla-precio {
     border: 1px solid #e1e1e1;
-        background-color: #ffffff;
-        padding: 40px 0;
-        text-align: center;
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
 }
+
 div.tabla-precio:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 50px #666;
     transition: all .3s ease;
     border: 1px solid #fe4918;
 }
+
 .numero {
     color: #fe4918;
     text-decoration: none;
@@ -237,25 +242,29 @@ div.tabla-precio:hover {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .img-lista {
     width: 50%;
     border-radius: 20px;
 }
+
 .tabla-paquetes ul li {
-    font-family: 'PT Sans' , sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     margin-top: 20px;
     text-transform: uppercase;
     color: 868686;
     line-height: 26px;
     list-style: none;
-   
+
 }
+
 .tabla-paquetes ul li i {
     color: green;
     margin-right: 10px;
 }
+
 .button {
     border: 1px salid black;
     border-radius: 20px;
@@ -267,7 +276,8 @@ div.tabla-precio:hover {
 
 /**Footer**/
 footer {
-    background-color: #353535;;
+    background-color: #353535;
+    ;
     padding-top: 40px;
     margin-top: 50px;
 }
@@ -279,6 +289,7 @@ footer h2 {
 .nosotros {
     margin-left: 50px;
 }
+
 .nosotros p {
     color: #ffffff;
 }
@@ -306,14 +317,16 @@ p.copyright {
 .iconredes {
     padding-right: 10px;
 }
+
 .fa-facebook {
     background: #aaa;
     border-radius: 10%;
-	padding: 1em;
-	color: White;
-	margin: 1em;
-	transition: all ease 0.5s;
+    padding: 1em;
+    color: White;
+    margin: 1em;
+    transition: all ease 0.5s;
 }
+
 .fa-facebook:hover {
     background: #3b5998;
 }
@@ -321,37 +334,94 @@ p.copyright {
 .fa-instagram {
     background: #aaa;
     border-radius: 10%;
-	padding: 1em;
-	color: White;
-	margin: 1em;
-	transition: all ease 0.5s;
+    padding: 1em;
+    color: White;
+    margin: 1em;
+    transition: all ease 0.5s;
 }
+
 .fa-instagram:hover {
-    background:  #F77737;
+    background: #F77737;
 }
 
 
 .fa-whatsapp {
     background: #aaa;
     border-radius: 10%;
-	padding: 1em;
-	color: White;
-	margin: 1em;
-	transition: all ease 0.5s;
+    padding: 1em;
+    color: White;
+    margin: 1em;
+    transition: all ease 0.5s;
 }
+
 .fa-whatsapp:hover {
-    background:  #25D366;
+    background: #25D366;
 }
 
 .fa-youtube {
     background: #aaa;
     border-radius: 10%;
-	padding: 1em;
-	color: White;
-	margin: 1em;
-	transition: all ease 0.5s;
+    padding: 1em;
+    color: White;
+    margin: 1em;
+    transition: all ease 0.5s;
 }
+
 .fa-youtube:hover {
     background: #FD1D1D;
-    
+
+}
+
+/**hoteles**/
+.seccion-hoteles h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-hoteles {
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+
+.lista-hoteles:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px #666;
+    transition: all .3s ease;
+    border: 2px solid #2f21f7;
+}
+.lista-hoteles {
+    margin-bottom: 60px;
+}
+.lista-hoteles h3 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.tabla-hoteles ul li {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 14px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    line-height: 26px;
+    list-style: none;
+
+}
+
+.tabla-hoteles ul li i {
+    color: green;
+    margin-right: 10px;
+}
+
+.descuentos {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    margin-bottom: -0.2px;
 }

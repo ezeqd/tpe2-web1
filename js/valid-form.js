@@ -24,3 +24,6 @@ function validate (e) {
   }
 }
 generate(captcha);
+
+
+

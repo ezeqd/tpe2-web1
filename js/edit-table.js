@@ -26,5 +26,5 @@ function agregarFila{ // Esto agrega hasta 3 grupo de input para la entrada de d
     // no debería haber mas de 3 form abiertos
 }
 
-function insertarFila{
+function insertarFila {
 } //Esto agregaría las filas de input que genera agregarFila
