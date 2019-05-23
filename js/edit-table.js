@@ -1,7 +1,7 @@
 "use strict"
 let btnVaciar = document.querySelector(".btn-vaciar");
      btnVaciar.addEventListener("click", vaciartabla);
-let btnInsertar = document.querySelector(".btnEnviar");
+let btnInsertar = document.querySelector(".btnfinalizar");
 btnInsertar.addEventListener("click", mostrarTabla);
 let btnAgregar = document.querySelector(".btn-agregar");
 // btnAgregar.addEventListener("click", insertarForm);
@@ -12,20 +12,23 @@ let servicio = document.querySelector(".servicioSelect");
 let pago = document.querySelector(".pagoSelect");
 // tengo que agregar un evento que escuche cambios de la tabla y llame a mostrarTabla
 
+document.addEventListener('DOMContentLoaded', iniciar);
+function iniciar (event) {
 
-destino.addEventListener("change" , function(){ //aca guardo el valor ingresado en el campo destino
-  tabla.destinos[0] = destino.value; 
-  
-});
-estadia.addEventListener("change" , function (){ //aca guardo el valor ingresado en el campo estadia
-  tabla.estadia[0] = estadia.value;
-});
-servicio.addEventListener("change" , function(){ // aca guardo el valor ingresado en el campo servicio
-  tabla.servicios[0] = servicio.value;
-});
-pago.addEventListener("change" , function(){// aca guardo el valor ingresado en el campo pago
-  tabla.pago[0] = pago.value;
-});
+  destino.addEventListener("change" , function(){ //aca guardo el valor ingresado en el campo destino
+    tabla.destinos[0] = destino.value; 
+    
+  });
+  estadia.addEventListener("change" , function (){ //aca guardo el valor ingresado en el campo estadia
+    tabla.estadia[0] = estadia.value;
+  });
+  servicio.addEventListener("change" , function(){ // aca guardo el valor ingresado en el campo servicio
+    tabla.servicios[0] = servicio.value;
+  });
+  pago.addEventListener("change" , function(){// aca guardo el valor ingresado en el campo pago
+    tabla.pago[0] = pago.value;
+  });
+}
 
 
 
@@ -51,7 +54,7 @@ function mostrarTabla () {
 function vaciartabla (tabla) {
   
  }
-
+iniciar();
 
 
 
