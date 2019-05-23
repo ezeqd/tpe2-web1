@@ -21,10 +21,9 @@
         <p class="iconfly"><i class="fas fa-plane"></i></p>
       </div>
     </div>
+  </header>
         <!--.contenedor-->
-    </header>
     <div class="navegacion">
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Blog de Viajes</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +66,7 @@
             </tr>
           </thead>
           <tbody class="tebodi table-bordered">
-    
+
           </tbody>
         </table>
       </div>
@@ -76,57 +75,28 @@
 <div class="btn-items">
   <button type="button" class="btn btn-info btn-agregar" name="btnAdd">Agregar</button>
   <button type="button" class="btn btn-info btn-vaciar" name="btnRemove" >Vaciar</button>
-  
+
 </div>
 
-  <div class="container">
+  <div class="container form-container">
     <form class="form-list">
       <div class="form-group">
         <p>Destino</p>
-        <select class="form-control destinoSelect">
-            <option value=""></option>
-          <option value="madrid">Madrid</option>
-          <option value="cataratas">Cataratas</option>
-          <option value="mexico">Mexico</option>
-          <option value="brasil">Brasil</option>
-          <option value="londres">Londres</option>
-          <option value="paris">Paris</option>
-          <option value="roma">Roma</option>
-          <option value="berlin">Berlin</option>
-        </select>
+        <input type="text" class="form-control" placeholder="Destino">
       </div>
       <div class="form-group">
         <p>Estadia</p>
-        <select class="form-control estadiaSelect">
-          <option value=""></option>
-          <option value="15 a 20 Dias">15 a 20 dias</option>
-          <option value="20 a 25 Dias">20 a 25 noches</option>
-          <option value="25 a 30 Dias">30 dias</option>
-          <option value="1 meses">1 Meses</option>
-          <option value="2 meses">2 Meses</option>
-        </select>
+        <input type="text" class="form-control" placeholder="Estadia">
       </div>
       <div class="form-group">
         <p>Servicios</p>
-        <select class="form-control servicioSelect">
-            <option value=""></option>
-          <option value="allInclusive">AllInclusive</option>
-          <option value="vuelos y traslados">Vuelos y traslados</option>
-          <option value="vuelos y Hotel">Vuelos y Hotel</option>
-          <option value="vuelos, Hotel y Traslados">Vuelos, hotel y traslados</option>
-        </select>
+        <input type="text" class="form-control" placeholder="Servicios">
       </div>
       <div class="form-group">
         <p>Forma de pago</p>
-        <select class="form-control pagoSelect">
-            <option value=""></option>
-          <option value="efectivo">Efectivo</option>
-          <option value="tarjeta de debito">Tarjeta de Debito</option>
-          <option value="tarjeta de credito">Tarjeta de Credito</option>
-          <option value="pagoexpress">Pago Express</option>
-        </select>
+        <input type="text" class="form-control" placeholder="Forma de Pago">
       </div>
-        <button type="button" class="btnfinalizar btn btn-primary">Finalizar</button>
+        <button type="button" class="btnEnviar btn btn-primary">Finalizar</button>
     </form>
   </div>
 
