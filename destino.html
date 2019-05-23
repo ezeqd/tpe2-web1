@@ -55,25 +55,27 @@
             </div>
         </nav>
     </div>
-    <div class="container-fluid">
-    <table class="table table-hover table-responsive ">
-      <thead class="thead-dark table-bordered">
-        <tr>
-          <th scope="col">Destino</th>
-          <th scope="col">Estadia</th>
-          <th scope="col">Servicios</th>
-          <th scope="col">Forma de pago</th>
-        </tr>
-      </thead>
-      <tbody class="tebodi table-bordered">
-        
-      </tbody>
-    </table>
+    <div class="row d-flex justify-content-center ">
+      <div class="justify-content-center">
+        <table id="tabla" class="table table-hover table-responsive justify-content-center">
+          <thead class="thead-dark table-bordered">
+            <tr>
+              <th scope="col">Destino</th>
+              <th scope="col">Estadia</th>
+              <th scope="col">Servicios</th>
+              <th scope="col">Forma de pago</th>
+            </tr>
+          </thead>
+          <tbody class="tebodi table-bordered">
+    
+          </tbody>
+        </table>
+      </div>
   </div>
 
 <div class="btn-items">
   <button type="button" class="btn btn-info btn-agregar" name="btnAdd">Agregar</button>
-  <button type="button" class="btn btn-info btn-vaciar" name="btnRemove">Vaciar</button>
+  <button type="button" class="btn btn-info btn-vaciar" name="btnRemove" >Vaciar</button>
   
 </div>
 
@@ -82,6 +84,7 @@
       <div class="form-group">
         <p>Destino</p>
         <select class="form-control destinoSelect">
+            <option value=""></option>
           <option value="madrid">Madrid</option>
           <option value="cataratas">Cataratas</option>
           <option value="mexico">Mexico</option>
@@ -95,9 +98,10 @@
       <div class="form-group">
         <p>Estadia</p>
         <select class="form-control estadiaSelect">
+          <option value=""></option>
           <option value="15 a 20 Dias">15 a 20 dias</option>
           <option value="20 a 25 Dias">20 a 25 noches</option>
-          <option value="25 a 30 Dias">Mexico</option>
+          <option value="25 a 30 Dias">30 dias</option>
           <option value="1 meses">1 Meses</option>
           <option value="2 meses">2 Meses</option>
         </select>
@@ -105,6 +109,7 @@
       <div class="form-group">
         <p>Servicios</p>
         <select class="form-control servicioSelect">
+            <option value=""></option>
           <option value="allInclusive">AllInclusive</option>
           <option value="vuelos y traslados">Vuelos y traslados</option>
           <option value="vuelos y Hotel">Vuelos y Hotel</option>
@@ -114,6 +119,7 @@
       <div class="form-group">
         <p>Forma de pago</p>
         <select class="form-control pagoSelect">
+            <option value=""></option>
           <option value="efectivo">Efectivo</option>
           <option value="tarjeta de debito">Tarjeta de Debito</option>
           <option value="tarjeta de credito">Tarjeta de Credito</option>
