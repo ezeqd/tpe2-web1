@@ -36,7 +36,7 @@ function agregarForm (){
     forms.push(nuevoFormulario); // .push() inserta el json nuevoFormulario en el arreglo forms
     contadorForm++;
   }
-  mostrarTabla();
+  mostrarForm();
 }
 
 function mostrarTabla () {
@@ -58,6 +58,7 @@ function vaciarTabla (tabla) {
   for (let i = 0; i < cantTabla; i++){
     tabla.pop(); // elimina el ultimo elemento del json
   }
+  mostrarTabla();
 }
 
 function mostrarForm(forms){
