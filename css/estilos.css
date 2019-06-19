@@ -44,7 +44,9 @@ div.contenido {
     margin: 20px auto;
     padding-left: 30px;
 }
-
+.span-logo {
+    color:  rgb(88, 117, 179);
+}
 .logo {
     width: 100%;
     text-align: center;
